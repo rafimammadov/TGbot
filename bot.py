@@ -19,7 +19,7 @@ from telegram.ext import (
 logging.basicConfig(format="%(asctime)s | %(levelname)s | %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8663186340:AAHFkLo3tjieKYcB_SAIf7OyCSkPuyBlYws")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "API_TOKEN")
 DATA_DIR  = Path("data")
 VOICE_DIR = DATA_DIR / "voices"
 TEMP_DIR  = DATA_DIR / "temp"
